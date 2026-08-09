@@ -1,4 +1,4 @@
-# Python Data & Engineering Portfolio
+# Python Data & Engineering Projects
 
 A collection of Python projects focused on data analytics, data engineering,
 data science, visualization, and backend/API development.
