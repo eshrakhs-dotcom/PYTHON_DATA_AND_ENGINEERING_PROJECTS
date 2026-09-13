@@ -13,6 +13,6 @@ market trends, and high-value technical skills.
 
 ➡️ [View Full Project](data-analytics-python/3_Project/README.md)
 
-### ⚡ FastAPI Analytics Backend
+### 💳 Fintech Payment Processing API
 
 Coming soon — Python backend and API development using FastAPI.
