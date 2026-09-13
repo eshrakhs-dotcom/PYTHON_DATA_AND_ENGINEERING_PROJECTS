@@ -169,14 +169,14 @@ I used **PostgreSQL** for persistent transaction storage, **SQLAlchemy** for ORM
 
 ```text
 FastAPI → SQLAlchemy → PostgreSQL
-                 ↑
-              Alembic
-          schema migrations
-
+              ↑
+           Alembic
+      schema migrations
+```
 
 ## Testing
 
-I built an automated test suite with **Pytest and HTTPX** to validate payment behavior and protect against regressions.
+Automated tests validate core payment behavior against an isolated PostgreSQL test database.
 
 ```text
 ✓ Payment creation
@@ -190,11 +190,13 @@ I built an automated test suite with **Pytest and HTTPX** to validate payment be
 7 passed
 ```
 
-Tests run against an isolated PostgreSQL test database rather than the development database.
+Run the suite with:
 
 ```bash
 python -m pytest -v
 ```
+
+
 
 ## Containerization & AWS
 
