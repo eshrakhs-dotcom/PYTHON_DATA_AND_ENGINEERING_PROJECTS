@@ -15,4 +15,6 @@ market trends, and high-value technical skills.
 
 ### 💳 Fintech Payment Processing API
 
-Coming soon — Python backend and API development using FastAPI.
+Production-style payment processing backend built with Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, and automated testing. Implements idempotent payment creation, transaction lifecycle controls, cancellation/refund workflows, and persistent transaction storage.
+
+➡️ [View Full Project](Fintech-Payment-Processing-API/README.md)
