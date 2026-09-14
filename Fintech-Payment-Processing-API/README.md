@@ -69,7 +69,7 @@ The application follows a layered backend architecture that separates the API la
                                         │    AWS ECR    │
                                         │Image Registry │
                                         └───────────────┘
-
+```
 
 ### Why this architecture section matters
 
